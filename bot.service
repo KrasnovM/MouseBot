@@ -1,0 +1,9 @@
+[Unit]
+Description=FirstTryBot
+
+[Service]
+ExecStart=nohup java -jar /root/FirstTryBot/FirstTryBot.jar &
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

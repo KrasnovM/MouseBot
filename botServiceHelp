@@ -1,0 +1,4 @@
+//put bot.service in /etc/systemd/system
+//systemctl enable bot.service
+//or
+//systemctl start bot.service
